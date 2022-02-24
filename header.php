@@ -21,7 +21,7 @@
   </div>
   <!-- Side menu -->
   <aside class="sideMenu sideMenuShow" id="sideMenu"> 
-    <img src="images/SRN-Sachin-full.svg" class="logo">
+    <a href="#home"><img src="images/SRN-Sachin-full.svg" class="logo"></a>
 
     <nav>
       <ul class="navBar">
