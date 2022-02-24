@@ -286,7 +286,7 @@
                   <label for="subjectInput" class="srOnly"></label>
                   <input type="text" id="subjectInput" name="subject" class="subjectInput" required placeholder="Subject*"/>
                   <label for="subjectInput" class="srOnly"></label>
-                  <input type="file" id="fileInput" name="filetInput" class="subjectInput" required placeholder="File"/>
+                  <input type="file" id="fileInput" name="filetInput" class="subjectInput" placeholder="File"/>
                   <label for="messageInput" class="srOnly"></label>
                   <textarea class="messageInput" name="messageInput" id="messageInput" required placeholder="Your Message*"></textarea>
               </form>
