@@ -1,18 +1,4 @@
 <?php include "header.php";?>
-<?php 
-if(isset($_POST['submit'])){
-    $to = "jerryraj40@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $full_name = $_POST['full_name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $full_name ." wrote the following:" . "\n\n" . $_POST['message'];
-
-    $headers = "From:" . $from;
-    mail($to,$subject,$message,$headers);
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-    }
-?>
   <!--Beginning of the wrapper -->
   <div class="outerWrapper"> 
     <div class="innerWrapper">
