@@ -4,7 +4,6 @@ require 'PHPMailer-master/src/Exception.php';
 require 'PHPMailer-master/src/PHPMailer.php';
 require 'PHPMailer-master/src/SMTP.php';
 
-$mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Mailer = "smtp";
 
@@ -17,7 +16,6 @@ if (isset($_POST['submit'])){
 }
 
 /* creates object */
-$mail = new PHPMailer(true);
 $mailid = "jerryraj40@gmail.com";
 $subject = "Form Submitted";
 $text_message = "Hello";
