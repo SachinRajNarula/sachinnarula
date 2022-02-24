@@ -9,8 +9,14 @@ if(isset($_POST['submit'])){
     $message = $full_name ." wrote the following:" . "\n\n" . $_POST['message'];
 
     $headers = "From:" . $from;
-    mail($to,$subject,$message,$headers);
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    $result = mail($to,$subject,$message,$headers);
+    if($result)
+    {
+        $success = "Success"
+    }
+    else{
+      $failed= "failed"
+    }
     }
 ?>
   <!--Beginning of the wrapper -->
@@ -313,9 +319,11 @@ if(isset($_POST['submit'])){
                   <input type="file" id="fileInput" name="filetInput" class="subjectInput" required placeholder="File"/> -->
                   <label for="messageInput" class="srOnly"></label>
                   <textarea class="messageInput" name="message" id="messageInput" required placeholder="Your Message*"></textarea>
-              </form>
-
-              <button type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
+               </form>
+                <div>
+                  <p class="success"> <?php echo $success; ?></p>
+                  <p class="failed"> <?php echo $failed; ?></p>
+              <button type="submit" name="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
             </div>
           </div> 
 
