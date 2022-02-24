@@ -1,68 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sachin Narula - Full-Stack Web Developer</title>
-    <meta name="description" content="A Full-Stack Web Developer passionate about creating interactive applications and experiences on the web." />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <!-- Mobile menu button -->
-  <div id="home" class="visuallyHidden"></div>
-  <div class="menuButton" id="menuButton" tabindex=0>
-    <div class="linesContainer">
-      <span></span>
-    </div>
-  </div>
-  <!-- Side menu -->
-  <aside class="sideMenu sideMenuShow" id="sideMenu"> 
-    <p class="logo">SN</p>
-
-    <nav>
-      <ul class="navBar">
-        <li class="homeNav">
-          <a href="#home" class="navItem">
-            <i class="lni lni-home"></i>
-            <span class="navItemName">HOME</span>
-          </a>
-        </li>
-        <li class="aboutNav">
-          <a href="#about" class="navItem">
-            <i class="lni lni-user"></i>
-            <span class="navItemName">ABOUT</span>
-          </a>
-        </li>
-        <li class="skillsNav">
-          <a href="#skills" class="navItem">
-            <i class="lni lni-code-alt"></i>
-            <span class="navItemName">SKILLS</span>
-          </a>
-        </li>
-        <li class="worksNav">
-          <a href="#works" class="navItem">
-            <i class="lni lni-briefcase"></i>
-            <span class="navItemName">WORKS</span>
-          </a>
-        </li>
-        <li class="contactNav">
-          <a href="#contact" class="navItem">
-            <i class="lni lni-phone"></i>
-            <span class="navItemName">CONTACT</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="scrollDown" id="scrollDown">
-      <i class="lni lni-arrow-down"></i>
-      <span class="navItemName scrollDownText">Scroll Down</span>
-    </div>
-  </aside>
+<?php include "header.php";?>
 
   <!--Beginning of the wrapper -->
   <div class="outerWrapper"> 
@@ -77,16 +13,16 @@
           <h1><span>SACHIN</span> NARULA</h1>
           <p class="smallBio">A <span>Full-Stack Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
           <div class="socialsResume">
-            <a class="resumeLink" href="assets/SachinResume.pdf" alt="Sachin Narula's resumé" target="_blank" rel="noopener noreferrer">Resumé</a>
+            <a class="resumeLink" href="SachinResume.pdf" alt="Sachin Narula's resumé" target="_blank" rel="noopener noreferrer">Resumé</a>
             <ul class="socialsList">
               <li>
                 <a href="https://www.linkedin.com/in/sachinnarula09/" target="_blank" rel="noopener noreferrer"><i class="lni lni-linkedin-original" aria-label="Link to Sachin's LinkedIn page."></i></a>
               </li>
               <li>
-                <a href="https://github.com/Sachin-Raj-Narula" target="_blank" rel="noopener noreferrer"><i class="lni lni-youtube" aria-label="Link to Sachin's GitHub page."></i></a>
+                <a href="https://github.com/Sachin-Raj-Narula" target="_blank" rel="noopener noreferrer"><i class="lni lni-github-original" aria-label="Link to Sachin's GitHub page."></i></a>
               </li>
               <li>
-                <a href="https://youtube" target="_blank" rel="noopener noreferrer"><i class="lni lni-github-original" aria-label="Link to Sachin's GitHub page."></i></a>
+                <a href="https://youtube.com/sachinrajnarula" target="_blank" rel="noopener noreferrer"><i class="lni lni-youtube" aria-label="Link to Sachin's GitHub page."></i></a>
               </li>
             </ul>
           </div>
@@ -298,7 +234,7 @@
               <div class="workDescribeContainer">
                 <h3>Bachelor of Science</h3><p class="dates">August 2016 - May 2019</p>
                 <a href="https://puchd.ac.in/" class="company">Panjab University</a>
-                <h4>Technologies Used: <span class="techStack">JQuery</span>, <span class="techStack">SASS</span></h4>
+                <h4>Courses: <span class="techStack">Computer Science</span>, <span class="techStack">Mathematics</span>, <span class="techStack">Physics</span></h4>
                 <ul>
                   <li>Users click an abbreviation and are given a randomly generated definition</li>
                   <li>Words are randomly chosen from a large object containing arrays of words for each letter</li>
@@ -334,7 +270,7 @@
               <div class="flexContainer">
                 <div class="typeBox">
                   <i class="lni lni-phone"></i>
-                  <a href="https://calendly.com/alexcalia/30min" target="_blank" rel="noopener noreferrer">(519)981-8039</a>
+                  <a href="tel:5199818039" target="_blank" rel="noopener noreferrer">(519)981-8039</a>
                   <p>Call Me</p>
                 </div>
               </div>
