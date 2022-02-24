@@ -302,7 +302,7 @@ if(isset($_POST['submit'])){
               <h3>Contact Form</h3>
 
               <!-- <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST"> -->
-                <form id="contactForm" action="" method="POST">
+                <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST">
                   <label for="nameInput" class="srOnly"></label>
                   <input type="text" id="nameInput" name="full_name" class="nameInput" required placeholder="Your Name*"/>
                   <label for="emailInput" class="srOnly"></label>
