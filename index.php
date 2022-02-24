@@ -1,24 +1,4 @@
 <?php include "header.php";?>
-<?php 
-if(isset($_POST['submit'])){
-    $to = "jerryraj40@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $full_name = $_POST['full_name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $full_name ." wrote the following:" . "\n\n" . $_POST['message'];
-
-    $headers = "From:" . $from;
-    $result = mail($to,$subject,$message,$headers);
-    if($result)
-    {
-        $success = "Success";
-    }
-    else{
-      $failed= "failed";
-    }
-    }
-?>
   <!--Beginning of the wrapper -->
   <div class="outerWrapper"> 
     <div class="innerWrapper">
@@ -308,7 +288,7 @@ if(isset($_POST['submit'])){
               <h3>Contact Form</h3>
 
               <!-- <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST"> -->
-                <form id="contactForm" action="" method="POST">
+                <form id="contactForm" action="form-submitted.php" method="POST">
                   <label for="nameInput" class="srOnly"></label>
                   <input type="text" id="nameInput" name="full_name" class="nameInput" required placeholder="Your Name*"/>
                   <label for="emailInput" class="srOnly"></label>

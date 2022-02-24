@@ -1,5 +1,13 @@
 <?php
-require('dotenv').config();
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require 'PHPMailer-master/src/Exception.php';
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
+
+$mail = new PHPMailer();
+$mail->IsSMTP();
+$mail->Mailer = "smtp";
 
 if (isset($_POST['submit'])){
 
@@ -8,7 +16,7 @@ if (isset($_POST['submit'])){
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
 }
-require_once 'phpmailer/class.phpmailer.php';
+
 /* creates object */
 $mail = new PHPMailer(true);
 $mailid = "jerryraj40@gmail.com";
