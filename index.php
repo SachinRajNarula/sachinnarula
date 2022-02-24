@@ -5,14 +5,14 @@
       <!-- Header -->
       <header>
         <div class="heroImageContainer">
-          <img src="assets/images/me.jpg" alt="A picture of Sachin Narula.">
+          <img src="images/Sachin.jfif" alt="A picture of Sachin Narula.">
         </div>
         <div class="heroDescription">
           <p class="greeting">HI THERE! I'M</p>
           <h1><span>SACHIN</span> NARULA</h1>
           <p class="smallBio">A <span>Full-Stack Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
           <div class="socialsResume">
-            <a class="resumeLink" href="SachinResume.pdf" alt="Sachin Narula's resumé" target="_blank" rel="noopener noreferrer">Resumé</a>
+            <a class="resumeLink" href="docuents/SachinResume.pdf" alt="Sachin Narula's resumé" target="_blank" rel="noopener noreferrer">Resumé</a>
             <ul class="socialsList">
               <li>
                 <a href="https://www.linkedin.com/in/sachinnarula09/" target="_blank" rel="noopener noreferrer"><i class="lni lni-linkedin-original" aria-label="Link to Sachin's LinkedIn page."></i></a>
@@ -37,7 +37,7 @@
           </div>
           
           <article class="aboutContainer sectionContainer">
-            <p>I'm a full-stack web developer with a 7+ years background in Computer Science which has given me a strong foundation for web development and building complex solutions. Recently, I graduated from the <span>Lambton College of Applied Arts & Technology</span> with 3.76 GPA. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
+            <p>I'm a full-stack web developer with a 7+ years background in Computer Science which has given me a strong foundation for web development and building complex solutions. Recently, I graduated from the <span>Lambton College of Applied Arts & Technology</span> with 3.68 GPA. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
           </article>
         </section>
 
@@ -52,86 +52,116 @@
             <ul class="skillsGrid">
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/html.svg">
+                  <img src="images/html.svg">
                   <p>HTML</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/css.svg">
+                  <img src="images/css.svg">
                   <p>CSS</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/sass.svg">
-                  <p>SASS</p>
+                  <img src="images/less.svg">
+                  <p>LESS</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/javascript.svg">
+                  <img src="images/javascript.svg">
                   <p>Javascript</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/jquery.svg">
-                  <p>JQuery</p>
+                  <img src="images/node.svg">
+                  <p>Node</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/react.svg">
+                  <img src="images/react.svg">
                   <p>React</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/api.svg" alt="Image from https://commons.wikimedia.org/wiki/File:Cloud-API-Logo.svg">
-                  <p>REST API</p>
+                  <img src="images/wordpress.svg">
+                  <p>WordPress</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/git.svg">
+                  <img src="images/drupal.svg">
+                  <p>Drupal</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="images/webflow.svg">
+                  <p>Webflow</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="images/sails.svg">
+                  <p>Sails</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="images/git.svg">
                   <p>Git</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/firebase.svg">
-                  <p>Firebase</p>
+                  <img src="images/postgres.svg">
+                  <p>PostgreSQL</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/vscode.svg">
+                  <img src="images/vscode.svg">
                   <p>VS Code</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/microsoftWindows.svg">
+                  <img src="images/microsoftWindows.svg">
                   <p>Windows</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/microsoft.svg">
+                  <img src="images/microsoft.svg">
                   <p>M365</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/dns.svg">
+                  <img src="images/dns.svg">
                   <p>DNS</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/skills/network.svg">
-                  <p>Networks</p>
+                  <img src="images/w3c.svg">
+                  <p>W3C</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="images/illustrator.svg">
+                  <p>Adobe Illustrator</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="images/adaptability.png">
+                  <p>Adaptabilty</p>
                 </div>
               </li>
             </ul>
@@ -155,14 +185,11 @@
                 <a href="https://revelree.ca" class="company">Revelree Entertainment Inc</a>
                 <h4>Technologies Used: <span class="techStack">React.js, Node.js, Sails.js</span>, <span class="techStack">JavaScript, TypeScript</span>,<span class="techStack">PostgreSQL</span></h4>
                 <ul>
-                  <li>Completely built with hooks and functional components</li>
-                  <li>Emulates time passage, and stock prices update randomly as each "day" passes</li>
-                  <li>Real-time updates on stock and portfolio performance, visualized with interactive charts</li>
+                  <li>Increased customer acquisition by 50% by adding user-friendly features using Sails.js framework, JavaScript, SQL (PostgreSQL), React.js, Express.js, LESS, Handlebars</li>
+                  <li>Increased bug-ﬁxes, reduced internal server errors by 40% using Heroku CLI by adding several validations which improved user-interaction</li>
+                  <li>Escalated user-interface by adding responsive webpages using CSS3, HTML5 in an MVC framework.</li>
+                  <li>Solely responsible for maintenance of projects until the delivery to client</li>
                 </ul>
-                <div class="workLinks">
-                  <a href="https://alexcalia.com/stonks" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
-                  <a href="https://github.com/alexcalia/stonks" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
               </div>
             </article>
 
@@ -175,75 +202,58 @@
                 <a href="https://gagecommunications.ca" class="company">Gage Communications</a>
                 <h4>Technologies Used: <span class="techStack">WordPress, Drupal</span>, <span class="techStack">PHP</span>, <span class="techStack">Webflow</span>, <span class="techStack">third-party integrations</span></h4>
                 <ul>
-                  <li>Uses the MapQuest and ListenNotes API to get route times and filter podcast search results based on travel time</li>
-                  <li>Google Authenitcation service allows users to sign in and save podcasts to a list, stored in Firebase</li>
+                  <li>Updated themes and plugins in Drupal & WordPress websites for better user- experience</li>
+                  <li>Executed version controlling of 3 websites using git & MS Visual Studio</li>
+                  <li>Migrated websites using FTP clients like FileZilla, CyberDuck to reduce the server cost by 40%</li>
+                  <li>Increased pace of error solving by 80% by creating technical documentation of the web-app and knowledge base of the errors</li>
                 </ul>
-                <div class="workLinks">
-                  <a href="https://alexcalia.com/podcastprioritizer" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
-                  <a href="https://github.com/alexcalia/podcastprioritizer" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
               </div>
             </article>
 
             <article class="workBox">
               <div class="workImageContainer">
-                <img src="images/Lambton-logo.jpg" alt="Lambton College Logo" style="height: 12em;width: 60%;margin-left: 50px;">
+                <img src="images/Lambton-logo.svg" alt="Lambton College Logo" style="height: 12em;">
               </div>
               <div class="workDescribeContainer">
                 <h3>Post-Graduate Diploma</h3><p class="dates">January 2020 - August 2021</p>
                 <a href="https://lambtoncollege.ca" class="company">Lambton College of Applied Arts & Technology</a>
-                <h4>Program Capabilities: <a class="techStack">Technologies learnt</a>, <a class="techStack">Transcript</a></h4>
+                <h4>Program Capabilities: <a href="documents/Program Capabilities.pdf" class="techStack">Technologies learnt</a>, <a href="documents/Transcript.pdf" class="techStack">Transcript</a></h4>
                 <ul>
-                  <li>React Router was used to create multiple views for the chat and quotes systems</li>
-                  <li>Real-time chat where users can change their username, with all messages stored in Firebase</li>
-                  <li>Pulls a random quote from an API where users can write an anonymous reflection for others to see, all stored in Firebase</li>
+                  <li>GPA- 3.68/4.0</li>
+                  <li>Dean's Honor List in Semester-1, Semester-2, Semester-3</li>
                 </ul>
-                <div class="workLinks">
-                  <a href="https://alexcalia.com/cohort" class="liveLink" target="_blank">Live</a>
-                  <a href="https://github.com/alexcalia/cohortApp" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
-                  <a href="https://www.loom.com/share/f615f75be23b40639d3cf74b163c71bc" class="demoLink" target="_blank" rel="noopener noreferrer">Demo</a>
-                </div>
               </div>
             </article>
 
             <article class="workBox">
               <div class="workImageContainer">
-                <img src="images/" alt="Game Scope landing page.">
+                <img src="images/freelancer.svg" alt="Game Scope landing page.">
               </div>
               <div class="workDescribeContainer">
                 <h3>Freelancing</h3><p class="dates">January 2019 - January 2020</p>
                 <a href="" class="company">Self-Employed</a>
                 <h4>Technologies Used: <span class="techStack">PHP</span>, <span class="techStack">JavaScript</span>, <span class="techStack">HTML5/CSS3</span>, <span class="techStack">Webflow/Wix</span></h4>
                 <ul>
-                  <li>Information on games pulled from a video game API</li>
-                  <li>Games can be filtered by genre using a drop down menu, where the endpoint is updated dynamically</li>
-                  <li>Using pagination, more games from the genres can be pulled as users request them</li>
+                  <li>Built single-page and dynamic websites using PHP, HTML, CSS, JavaScript</li>
+                  <li>Updated the designs as per the clients' needs</li>
+                  <li>Managed 10-12 clients in a year with diﬀerent requirements</li>
+                  <li>Solved PostgreSQL problems using psql(SQL shell) which cannot be solved directly in pgAdmin4</li>
+                  <li>Used various website builders like Webnode, Wix which increased the development speed signiﬁcantly by 70%</li>
                 </ul>
-                <div class="workLinks">
-                  <a href="https://alexcalia.com/gamescope" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
-                  <a href="https://github.com/alexcalia/gamescope" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
               </div>
             </article>
 
             <article class="workBox">
               <div class="workImageContainer">
-                <img src="assets/images/slangapp.PNG" alt="Twitter Slang Generator page with results diplsayed.">
+                <img src="images/panjab-university.svg" alt="Twitter Slang Generator page with results diplsayed.">
               </div>
               <div class="workDescribeContainer">
                 <h3>Bachelor of Science</h3><p class="dates">August 2016 - May 2019</p>
                 <a href="https://puchd.ac.in/" class="company">Panjab University</a>
                 <h4>Courses: <span class="techStack">Computer Science</span>, <span class="techStack">Mathematics</span>, <span class="techStack">Physics</span></h4>
                 <ul>
-                  <li>Users click an abbreviation and are given a randomly generated definition</li>
-                  <li>Words are randomly chosen from a large object containing arrays of words for each letter</li>
-                  <li>Toggle between light and dark themes</li>
-                  <li>Secret mode can be unlocked where users can enter their own abbreviations</li>
+                  <li>Ranked 2 in Computer Science in class of 40</li>
                 </ul>
-                <div class="workLinks">
-                  <a href="https://alexcalia.com/slangapp" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
-                  <a href="https://github.com/alexcalia/slangapp" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
               </div>
             </article>
           </div>
@@ -277,16 +287,16 @@
             <div class="contactFormContainer">
               <h3>Contact Form</h3>
 
-              <!-- <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST"> -->
-                <form id="contactForm" action="form-submitted.php" method="POST">
+              <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST">
+                <!-- <form id="contactForm" action="form-submitted.php" method="POST"> -->
                   <label for="nameInput" class="srOnly"></label>
                   <input type="text" id="nameInput" name="name" class="nameInput" required placeholder="Your Name*"/>
                   <label for="emailInput" class="srOnly"></label>
                   <input type="email" id="emailInput" name="email" class="emailInput" required placeholder="Your Email*" />
                   <label for="subjectInput" class="srOnly"></label>
                   <input type="text" id="subjectInput" name="subject" class="subjectInput" required placeholder="Subject*"/>
-                  <label for="subjectInput" class="srOnly"></label>
-                  <input type="file" id="fileInput" name="filetInput" class="subjectInput" placeholder="File"/>
+                  <!-- <label for="subjectInput" class="srOnly"></label>
+                  <input type="file" id="fileInput" name="filetInput" class="subjectInput" required placeholder="File"/> -->
                   <label for="messageInput" class="srOnly"></label>
                   <textarea class="messageInput" name="messageInput" id="messageInput" required placeholder="Your Message*"></textarea>
               </form>

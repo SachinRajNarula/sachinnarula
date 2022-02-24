@@ -331,7 +331,7 @@ section {
   border-radius: 5px;
   width: 25px;
   height: 2px;
-  background-color: #36454F;
+  background-color: #222;
   position: absolute;
   display: block;
   content: '';
@@ -366,8 +366,8 @@ section {
   background-color: #2322a3;
   position: fixed;
   color: white;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
   z-index: 10;
 }
 
@@ -410,7 +410,7 @@ section {
 }
 
 .sideMenu nav a:hover, .sideMenu nav a:focus {
-  background-color: #36454F;
+  background-color: #222;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
 }
@@ -488,8 +488,8 @@ header .heroImageContainer img {
   margin: 0 auto;
   width: 350px;
   height: 350px;
-  -webkit-box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
-          box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
+  -webkit-box-shadow: 12px 0 #2322a3bf, 24px 0 #2322a3a1, 36px 0 #2322a32e;
+          box-shadow: 12px 0 #2322a3bf, 24px 0 #2322a3a1, 36px 0 #2322a32e;
 }
 
 header .heroDescription {
@@ -623,8 +623,8 @@ header .heroDescription .socialsResume .resumeLink:focus {
   padding: 10px;
   border-radius: 15px;
   width: 80px;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
   -webkit-box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
           box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
   border: 1px solid #eee;
@@ -659,8 +659,8 @@ header .heroDescription .socialsResume .resumeLink:focus {
 
 .workBox .workImageContainer {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 350px;
-          flex: 0 0 350px;
+      -ms-flex: 0 0 250px;
+          flex: 0 0 250px;
   border-radius: 10px;
   height: auto;
 }
@@ -668,6 +668,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
 .workBox .workImageContainer img {
   width: 100%;
   border-radius: 10px;
+  padding: 10px;
   border: 1px solid #ddd;
 }
 
@@ -1096,8 +1097,8 @@ footer p {
     display: block;
   }
   header .heroImageContainer img {
-    -webkit-box-shadow: 12px 0 #d9c8f1;
-            box-shadow: 12px 0 #d9c8f1;
+    -webkit-box-shadow: 12px 0 #2322a3bf;
+            box-shadow: 12px 0 #2322a3bf;
   }
   .socialsList {
     -webkit-box-pack: center;

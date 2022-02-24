@@ -1,4 +1,5 @@
 <?php
+require('dotenv').config();
 
 if (isset($_POST['submit'])){
 
@@ -26,7 +27,7 @@ $mail->Host = "smtp.sendgrid.net";
 $mail->Port = '25';
 $mail->AddAddress($mailid);
 $mail->Username ="apikey";
-$mail->Password ="process.env.API_KEY";
+$mail->Password ="process.API_KEY";
 $mail->SetFrom($email,$fname);
 $mail->AddReplyTo($email,$fname);
 $mail->Subject = $subject;
