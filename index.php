@@ -12,10 +12,10 @@ if(isset($_POST['submit'])){
     $result = mail($to,$subject,$message,$headers);
     if($result)
     {
-        $success = "Success"
+        $success = "Success";
     }
     else{
-      $failed= "failed"
+      $failed= "failed";
     }
     }
 ?>
