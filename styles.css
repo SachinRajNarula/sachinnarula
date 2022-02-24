@@ -980,6 +980,9 @@ footer p {
     width: 100%;
     margin-left: 0;
   }
+  .dates{
+    display: none;
+  }
   .sideMenu {
     width: 220px;
     -webkit-box-pack: start;
