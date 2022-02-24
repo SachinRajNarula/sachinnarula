@@ -1,4 +1,18 @@
 <?php include "header.php";?>
+<?php 
+if(isset($_POST['submit'])){
+    $to = "jerryraj40@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $full_name = $_POST['full_name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $full_name ." wrote the following:" . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    }
+?>
   <!--Beginning of the wrapper -->
   <div class="outerWrapper"> 
     <div class="innerWrapper">
@@ -287,10 +301,10 @@
             <div class="contactFormContainer">
               <h3>Contact Form</h3>
 
-              <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST">
-                <!-- <form id="contactForm" action="form-submitted.php" method="POST"> -->
+              <!-- <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST"> -->
+                <form id="contactForm" action="" method="POST">
                   <label for="nameInput" class="srOnly"></label>
-                  <input type="text" id="nameInput" name="name" class="nameInput" required placeholder="Your Name*"/>
+                  <input type="text" id="nameInput" name="full_name" class="nameInput" required placeholder="Your Name*"/>
                   <label for="emailInput" class="srOnly"></label>
                   <input type="email" id="emailInput" name="email" class="emailInput" required placeholder="Your Email*" />
                   <label for="subjectInput" class="srOnly"></label>
@@ -298,7 +312,7 @@
                   <!-- <label for="subjectInput" class="srOnly"></label>
                   <input type="file" id="fileInput" name="filetInput" class="subjectInput" required placeholder="File"/> -->
                   <label for="messageInput" class="srOnly"></label>
-                  <textarea class="messageInput" name="messageInput" id="messageInput" required placeholder="Your Message*"></textarea>
+                  <textarea class="messageInput" name="message" id="messageInput" required placeholder="Your Message*"></textarea>
               </form>
 
               <button type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
