@@ -1,5 +1,4 @@
 <?php include "header.php";?>
-
   <!--Beginning of the wrapper -->
   <div class="outerWrapper"> 
     <div class="innerWrapper">
@@ -278,13 +277,14 @@
             <div class="contactFormContainer">
               <h3>Contact Form</h3>
 
-              <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST">
+              <!-- <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST"> -->
+                <form id="contactForm" action="form-submitted.php" method="POST">
                   <label for="nameInput" class="srOnly"></label>
-                  <input type="text" id="nameInput" name="nameInput" class="nameInput" required placeholder="Your Name*"/>
+                  <input type="text" id="nameInput" name="name" class="nameInput" required placeholder="Your Name*"/>
                   <label for="emailInput" class="srOnly"></label>
-                  <input type="email" id="emailInput" name="emailInput" class="emailInput" required placeholder="Your Email*" />
+                  <input type="email" id="emailInput" name="email" class="emailInput" required placeholder="Your Email*" />
                   <label for="subjectInput" class="srOnly"></label>
-                  <input type="text" id="subjectInput" name="subjectInput" class="subjectInput" required placeholder="Subject*"/>
+                  <input type="text" id="subjectInput" name="subject" class="subjectInput" required placeholder="Subject*"/>
                   <label for="subjectInput" class="srOnly"></label>
                   <input type="file" id="fileInput" name="filetInput" class="subjectInput" required placeholder="File"/>
                   <label for="messageInput" class="srOnly"></label>
