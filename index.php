@@ -315,7 +315,7 @@ if(isset($_POST['submit'])){
                   <textarea class="messageInput" name="message" id="messageInput" required placeholder="Your Message*"></textarea>
               </form>
 
-              <button type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
+              <button type="submit" name="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
             </div>
           </div> 
 
