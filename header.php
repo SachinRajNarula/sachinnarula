@@ -46,7 +46,7 @@
         <li class="worksNav">
           <a href="#works" class="navItem">
             <i class="lni lni-briefcase"></i>
-            <span class="navItemName">WORKS</span>
+            <span class="navItemName">EXPERIENCE</span>
           </a>
         </li>
         <li class="contactNav">

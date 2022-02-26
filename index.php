@@ -12,7 +12,7 @@
           <h1><span>SACHIN</span> NARULA</h1>
           <p class="smallBio">A <span>Full-Stack Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
           <div class="socialsResume">
-            <a class="resumeLink" href="docuents/SachinResume.pdf" alt="Sachin Narula's resumé" target="_blank" rel="noopener noreferrer">Resumé</a>
+            <a class="resumeLink" href="documents/SachinResume.pdf" alt="Sachin Narula's resumé" target="_blank" rel="noopener noreferrer">Resumé</a>
             <ul class="socialsList">
               <li>
                 <a href="https://www.linkedin.com/in/sachinnarula09/" target="_blank" rel="noopener noreferrer"><i class="lni lni-linkedin-original" aria-label="Link to Sachin's LinkedIn page."></i></a>
@@ -72,6 +72,12 @@
                 <div class="itemContainer">
                   <img src="images/javascript.svg">
                   <p>Javascript</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="images/php.svg">
+                  <p>PHP</p>
                 </div>
               </li>
               <li>
