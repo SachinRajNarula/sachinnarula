@@ -97,7 +97,10 @@ fieldset {
   margin: 0 2px;
   padding: .35em .625em .75em;
 }
-
+.sup{
+  font-size: xx-small;
+  vertical-align: top;
+}
 legend {
   border: 0;
   padding: 0;
