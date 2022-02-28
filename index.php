@@ -37,7 +37,7 @@
           </div>
           
           <article class="aboutContainer sectionContainer">
-            <p>I'm a full-stack web developer with a 7+ years background in Computer Science which has given me a strong foundation for web development and building complex solutions. Recently, I graduated from the <span>Lambton College of Applied Arts & Technology</span> with 3.68 GPA. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
+            <p>I'm a full-stack web developer with a 2+ years background in Computer Science which has given me a strong foundation for web development and building complex solutions. Recently, I graduated from the <span>Lambton College of Applied Arts & Technology</span> with 3.68 GPA. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
           </article>
         </section>
 
@@ -251,14 +251,14 @@
 
             <article class="workBox">
               <div class="workImageContainer">
-                <img src="images/panjab-university.svg" alt="Twitter Slang Generator page with results diplsayed.">
+                <img src="images/panjab-university.svg" alt="Panjab University's Logo">
               </div>
               <div class="workDescribeContainer">
                 <h3>Bachelor of Science</h3><p class="dates">August 2016 - May 2019</p>
                 <a href="https://puchd.ac.in/" class="company">Panjab University</a>
                 <h4>Courses: <span class="techStack">Computer Science</span>, <span class="techStack">Mathematics</span>, <span class="techStack">Physics</span></h4>
                 <ul>
-                  <li>Ranked 2 in Computer Science in class of 40</li>
+                  <li>Ranked 2<sup>nd</sup> in Computer Science in class of 40</li>
                 </ul>
               </div>
             </article>
