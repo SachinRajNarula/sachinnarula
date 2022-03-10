@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
     <link rel="stylesheet" href="styles.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8754319314753131"
+     crossorigin="anonymous"></script>
 </head>
 
 <body>
