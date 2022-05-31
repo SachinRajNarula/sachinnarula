@@ -184,6 +184,20 @@
           <div class="worksContainer sectionContainer">
             <article class="workBox">
               <div class="workImageContainer">
+                <img src="images/Northern-logo.svg" alt="Northern Logo">
+              </div>
+              <div class="workDescribeContainer">
+                <h3>Developer</h3><p class="dates">April 2022 - Present</p>
+                <a href="https://northern.co" class="company">Northern Commerce</a>
+                <h4>Technologies Used: <span class="techStack">Drupal, PHP, CMS</span></h4>
+                <ul>
+                  <li>Gaining experience</li>
+                </ul>
+              </div>
+            </article>
+          
+            <article class="workBox">
+              <div class="workImageContainer">
                 <img src="images/Revelree-Logol.svg" alt="Revelree Logo">
               </div>
               <div class="workDescribeContainer">
