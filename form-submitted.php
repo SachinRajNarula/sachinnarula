@@ -1,14 +1,13 @@
+<?php include "header.php";?>
+Thank you for your submission, <?php echo $_POST["name"]; ?>.
 <?php
 // require('dotenv').config();
-
-if (isset($_POST['submit'])){
 
 	$fname = $_POST['name'];
 	$email = $_POST['email'];
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
-}
-else
+
 // require_once 'phpmailer/class.phpmailer.php';
 // /* creates object */
 // $mail = new PHPMailer(true);
@@ -37,7 +36,7 @@ else
 // $mail->Send();
 // if($mail->Send())
 // {
-{echo "Thank you for your message. I will respond back ASAP.";}
+echo "Thank you for your message. I will respond back ASAP.";
 // }
 // }
 // catch(phpmailerException $ex)

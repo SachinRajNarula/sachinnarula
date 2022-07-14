@@ -319,9 +319,10 @@
                   <input type="file" id="fileInput" name="filetInput" class="subjectInput" required placeholder="File"/> -->
                   <label for="messageInput" class="srOnly"></label>
                   <textarea class="messageInput" name="message" id="messageInput" required placeholder="Your Message*"></textarea>
+
+                  <input type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">
               </form>
 
-              <button type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
             </div>
           </div> 
 
