@@ -308,7 +308,7 @@
               <h3>Contact Form</h3>
 
               <!-- <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST"> -->
-                <form id="contactForm" action="https://formspree.io/f/mwkyojlz" method="POST">
+                <form id="contactForm" action="form-submitted.php" method="POST">
                   <label for="nameInput" class="srOnly"></label>
                   <input type="text" id="nameInput" name="full_name" class="nameInput" required placeholder="Your Name*"/>
                   <label for="emailInput" class="srOnly"></label>
@@ -319,9 +319,10 @@
                   <input type="file" id="fileInput" name="filetInput" class="subjectInput" required placeholder="File"/> -->
                   <label for="messageInput" class="srOnly"></label>
                   <textarea class="messageInput" name="message" id="messageInput" required placeholder="Your Message*"></textarea>
+
+                  <input type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">
               </form>
 
-              <button type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
             </div>
           </div> 
 
