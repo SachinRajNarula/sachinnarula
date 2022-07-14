@@ -1,5 +1,5 @@
 <?php
-require('dotenv').config();
+// require('dotenv').config();
 
 if (isset($_POST['submit'])){
 
