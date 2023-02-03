@@ -18,7 +18,7 @@
                 <a href="https://www.linkedin.com/in/sachinnarula09/" target="_blank" rel="noopener noreferrer"><i class="lni lni-linkedin-original" aria-label="Link to Sachin's LinkedIn page."></i></a>
               </li>
               <li>
-                <a href="https://github.com/Sachin-Raj-Narula" target="_blank" rel="noopener noreferrer"><i class="lni lni-github-original" aria-label="Link to Sachin's GitHub page."></i></a>
+                <a href="https://github.com/cci-studios" target="_blank" rel="noopener noreferrer"><i class="lni lni-github-original" aria-label="Link to Sachin's GitHub page."></i></a>
               </li>
               <li>
                 <a href="https://youtube.com/sachinrajnarula" target="_blank" rel="noopener noreferrer"><i class="lni lni-youtube" aria-label="Link to Sachin's GitHub page."></i></a>
@@ -37,7 +37,7 @@
           </div>
           
           <article class="aboutContainer sectionContainer">
-            <p>I'm a full-stack web developer with a 2+ years background in Computer Science which has given me a strong foundation for web development and building complex solutions. Recently, I graduated from the <span>Lambton College of Applied Arts & Technology</span> with 3.68 GPA. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
+            <p>I'm a full-stack web developer with a 3+ years background in Computer Science which has given me a strong foundation for web development and building complex solutions. I graduated from the <span>Lambton College of Applied Arts & Technology</span> with 3.68 GPA. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
           </article>
         </section>
 
@@ -191,7 +191,10 @@
                 <a href="https://northern.co" class="company">Northern Commerce</a>
                 <h4>Technologies Used: <span class="techStack">Drupal, PHP, CMS</span></h4>
                 <ul>
-                  <li>Gaining experience</li>
+                  <li>Developed solutions for more than 3 projects simultaneously</li>
+                  <li>Shared idea with the 2 teams of 6 people in each team</li>
+                  <li>Managed more than 6 projects and deliver results within deadlines which increased my tasks by 50%</li>
+                  <li>Debug and troubleshoot Drupal code to bring the site up in few minutes</li>
                 </ul>
               </div>
             </article>
@@ -201,7 +204,7 @@
                 <img src="images/Revelree-Logol.svg" alt="Revelree Logo">
               </div>
               <div class="workDescribeContainer">
-                <h3>Lead Web Developer</h3><p class="dates">September 2021 - Present</p>
+                <h3>Lead Web Developer</h3><p class="dates">August 2021 - April 2022</p>
                 <a href="https://revelree.ca" class="company">Revelree Entertainment Inc</a>
                 <h4>Technologies Used: <span class="techStack">React.js, Node.js, Sails.js</span>, <span class="techStack">JavaScript, TypeScript</span>,<span class="techStack">PostgreSQL</span></h4>
                 <ul>
@@ -232,21 +235,6 @@
 
             <article class="workBox">
               <div class="workImageContainer">
-                <img src="images/Lambton-logo.svg" alt="Lambton College Logo" style="height: 12em;">
-              </div>
-              <div class="workDescribeContainer">
-                <h3>Post-Graduate Diploma</h3><p class="dates">January 2020 - August 2021</p>
-                <a href="https://lambtoncollege.ca" class="company">Lambton College of Applied Arts & Technology</a>
-                <h4>Program Capabilities: <a href="documents/Program Capabilities.pdf" class="techStack">Technologies learnt</a>, <a href="documents/Transcript.pdf" class="techStack">Transcript</a></h4>
-                <ul>
-                  <li>GPA- 3.68/4.0</li>
-                  <li>Dean's Honor List in Semester-1, Semester-2, Semester-3</li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="workBox">
-              <div class="workImageContainer">
                 <img src="images/freelancer.svg" alt="Game Scope landing page.">
               </div>
               <div class="workDescribeContainer">
@@ -259,6 +247,21 @@
                   <li>Managed 10-12 clients in a year with diﬀerent requirements</li>
                   <li>Solved PostgreSQL problems using psql(SQL shell) which cannot be solved directly in pgAdmin4</li>
                   <li>Used various website builders like Webnode, Wix which increased the development speed signiﬁcantly by 70%</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="workBox">
+              <div class="workImageContainer">
+                <img src="images/Lambton-logo.svg" alt="Lambton College Logo" style="height: 12em;">
+              </div>
+              <div class="workDescribeContainer">
+                <h3>Post-Graduate Diploma</h3><p class="dates">January 2020 - August 2021</p>
+                <a href="https://lambtoncollege.ca" class="company">Lambton College of Applied Arts & Technology</a>
+                <h4>Program Capabilities: <a href="documents/Program Capabilities.pdf" class="techStack">Technologies learnt</a>, <a href="documents/Transcript.pdf" class="techStack">Transcript</a></h4>
+                <ul>
+                  <li>GPA- 3.68/4.0</li>
+                  <li>Dean's Honor List in Semester-1, Semester-2, Semester-3</li>
                 </ul>
               </div>
             </article>
